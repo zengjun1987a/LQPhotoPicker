@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554236FA20D35F6D003C5B70 /* LQGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 554236E320D35F6C003C5B70 /* LQGroupCell.m */; };
+		554236FB20D35F6D003C5B70 /* LQGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554236E420D35F6C003C5B70 /* LQGroupCell.xib */; };
+		554236FC20D35F6D003C5B70 /* LQPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 554236E520D35F6C003C5B70 /* LQPhotoCollectionViewCell.m */; };
+		554236FD20D35F6D003C5B70 /* LQPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554236E720D35F6C003C5B70 /* LQPhotoCollectionViewCell.xib */; };
+		5542370320D35F6D003C5B70 /* photo_bg_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554236F220D35F6C003C5B70 /* photo_bg_1@3x.png */; };
+		5542370420D35F6D003C5B70 /* photo_bg_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554236F320D35F6C003C5B70 /* photo_bg_1@2x.png */; };
+		5542370520D35F6D003C5B70 /* photo_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554236F420D35F6C003C5B70 /* photo_bg@3x.png */; };
+		5542370620D35F6D003C5B70 /* photo_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554236F520D35F6C003C5B70 /* photo_bg@2x.png */; };
+		5542373F20D3B54D003C5B70 /* LQPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542373820D3B54C003C5B70 /* LQPhotoManager.m */; };
+		5542374020D3B54D003C5B70 /* LQPhotoGroupEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542373920D3B54C003C5B70 /* LQPhotoGroupEntity.m */; };
+		5542374120D3B54D003C5B70 /* LQPhotoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542373A20D3B54C003C5B70 /* LQPhotoLayout.m */; };
+		5542374220D3B54D003C5B70 /* LQCollectionCellEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542373E20D3B54D003C5B70 /* LQCollectionCellEntity.m */; };
+		5542374B20D3B56B003C5B70 /* LQPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542374320D3B56A003C5B70 /* LQPickerViewController.m */; };
+		5542374C20D3B56B003C5B70 /* LQGroupPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5542374520D3B56A003C5B70 /* LQGroupPickerViewController.xib */; };
+		5542374D20D3B56B003C5B70 /* LQPickVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542374620D3B56A003C5B70 /* LQPickVC.m */; };
+		5542374E20D3B56B003C5B70 /* LQPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5542374720D3B56B003C5B70 /* LQPickerViewController.xib */; };
+		5542374F20D3B56B003C5B70 /* LQGroupPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542374820D3B56B003C5B70 /* LQGroupPickerViewController.m */; };
+		556730C220CFD7B100E8C33D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 556730C120CFD7B100E8C33D /* AppDelegate.m */; };
+		556730C520CFD7B100E8C33D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556730C420CFD7B100E8C33D /* ViewController.m */; };
+		556730C820CFD7B100E8C33D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556730C620CFD7B100E8C33D /* Main.storyboard */; };
+		556730CA20CFD7B200E8C33D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556730C920CFD7B200E8C33D /* Assets.xcassets */; };
+		556730CD20CFD7B200E8C33D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556730CB20CFD7B200E8C33D /* LaunchScreen.storyboard */; };
+		556730D020CFD7B300E8C33D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556730CF20CFD7B300E8C33D /* main.m */; };
+		556730DA20CFD7B300E8C33D /* UploadPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556730D920CFD7B300E8C33D /* UploadPhotoTests.m */; };
+		556730E520CFD7B300E8C33D /* UploadPhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556730E420CFD7B300E8C33D /* UploadPhotoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		556730D620CFD7B300E8C33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556730B520CFD7B100E8C33D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556730BC20CFD7B100E8C33D;
+			remoteInfo = UploadPhoto;
+		};
+		556730E120CFD7B300E8C33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556730B520CFD7B100E8C33D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556730BC20CFD7B100E8C33D;
+			remoteInfo = UploadPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		554236E220D35F6C003C5B70 /* LQPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		554236E320D35F6C003C5B70 /* LQGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQGroupCell.m; sourceTree = "<group>"; };
+		554236E420D35F6C003C5B70 /* LQGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQGroupCell.xib; sourceTree = "<group>"; };
+		554236E520D35F6C003C5B70 /* LQPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		554236E620D35F6C003C5B70 /* LQGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQGroupCell.h; sourceTree = "<group>"; };
+		554236E720D35F6C003C5B70 /* LQPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		554236F220D35F6C003C5B70 /* photo_bg_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_bg_1@3x.png"; sourceTree = "<group>"; };
+		554236F320D35F6C003C5B70 /* photo_bg_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_bg_1@2x.png"; sourceTree = "<group>"; };
+		554236F420D35F6C003C5B70 /* photo_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_bg@3x.png"; sourceTree = "<group>"; };
+		554236F520D35F6C003C5B70 /* photo_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_bg@2x.png"; sourceTree = "<group>"; };
+		5542373720D3B54C003C5B70 /* LQPhotoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPhotoLayout.h; sourceTree = "<group>"; };
+		5542373820D3B54C003C5B70 /* LQPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPhotoManager.m; sourceTree = "<group>"; };
+		5542373920D3B54C003C5B70 /* LQPhotoGroupEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPhotoGroupEntity.m; sourceTree = "<group>"; };
+		5542373A20D3B54C003C5B70 /* LQPhotoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPhotoLayout.m; sourceTree = "<group>"; };
+		5542373B20D3B54C003C5B70 /* LQPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPhotoManager.h; sourceTree = "<group>"; };
+		5542373C20D3B54C003C5B70 /* LQCollectionCellEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCollectionCellEntity.h; sourceTree = "<group>"; };
+		5542373D20D3B54D003C5B70 /* LQPhotoGroupEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPhotoGroupEntity.h; sourceTree = "<group>"; };
+		5542373E20D3B54D003C5B70 /* LQCollectionCellEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCollectionCellEntity.m; sourceTree = "<group>"; };
+		5542374320D3B56A003C5B70 /* LQPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPickerViewController.m; sourceTree = "<group>"; };
+		5542374420D3B56A003C5B70 /* LQGroupPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQGroupPickerViewController.h; sourceTree = "<group>"; };
+		5542374520D3B56A003C5B70 /* LQGroupPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQGroupPickerViewController.xib; sourceTree = "<group>"; };
+		5542374620D3B56A003C5B70 /* LQPickVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPickVC.m; sourceTree = "<group>"; };
+		5542374720D3B56B003C5B70 /* LQPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQPickerViewController.xib; sourceTree = "<group>"; };
+		5542374820D3B56B003C5B70 /* LQGroupPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQGroupPickerViewController.m; sourceTree = "<group>"; };
+		5542374920D3B56B003C5B70 /* LQPickVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPickVC.h; sourceTree = "<group>"; };
+		5542374A20D3B56B003C5B70 /* LQPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPickerViewController.h; sourceTree = "<group>"; };
+		556730BD20CFD7B100E8C33D /* UploadPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		556730C020CFD7B100E8C33D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		556730C120CFD7B100E8C33D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		556730C320CFD7B100E8C33D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		556730C420CFD7B100E8C33D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		556730C720CFD7B100E8C33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		556730C920CFD7B200E8C33D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		556730CC20CFD7B200E8C33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		556730CE20CFD7B200E8C33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556730CF20CFD7B300E8C33D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		556730D520CFD7B300E8C33D /* UploadPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UploadPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		556730D920CFD7B300E8C33D /* UploadPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadPhotoTests.m; sourceTree = "<group>"; };
+		556730DB20CFD7B300E8C33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556730E020CFD7B300E8C33D /* UploadPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UploadPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		556730E420CFD7B300E8C33D /* UploadPhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadPhotoUITests.m; sourceTree = "<group>"; };
+		556730E620CFD7B300E8C33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556730BA20CFD7B100E8C33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556730D220CFD7B300E8C33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556730DD20CFD7B300E8C33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554236D720D35F6C003C5B70 /* LQPhotoPick */ = {
+			isa = PBXGroup;
+			children = (
+				554236D820D35F6C003C5B70 /* OBJ */,
+				554236E120D35F6C003C5B70 /* Cell */,
+				554236E820D35F6C003C5B70 /* VC */,
+				554236F120D35F6C003C5B70 /* pickImage */,
+			);
+			path = LQPhotoPick;
+			sourceTree = "<group>";
+		};
+		554236D820D35F6C003C5B70 /* OBJ */ = {
+			isa = PBXGroup;
+			children = (
+				5542373C20D3B54C003C5B70 /* LQCollectionCellEntity.h */,
+				5542373E20D3B54D003C5B70 /* LQCollectionCellEntity.m */,
+				5542373D20D3B54D003C5B70 /* LQPhotoGroupEntity.h */,
+				5542373920D3B54C003C5B70 /* LQPhotoGroupEntity.m */,
+				5542373720D3B54C003C5B70 /* LQPhotoLayout.h */,
+				5542373A20D3B54C003C5B70 /* LQPhotoLayout.m */,
+				5542373B20D3B54C003C5B70 /* LQPhotoManager.h */,
+				5542373820D3B54C003C5B70 /* LQPhotoManager.m */,
+			);
+			path = OBJ;
+			sourceTree = "<group>";
+		};
+		554236E120D35F6C003C5B70 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				554236E620D35F6C003C5B70 /* LQGroupCell.h */,
+				554236E320D35F6C003C5B70 /* LQGroupCell.m */,
+				554236E420D35F6C003C5B70 /* LQGroupCell.xib */,
+				554236E220D35F6C003C5B70 /* LQPhotoCollectionViewCell.h */,
+				554236E520D35F6C003C5B70 /* LQPhotoCollectionViewCell.m */,
+				554236E720D35F6C003C5B70 /* LQPhotoCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		554236E820D35F6C003C5B70 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				5542374420D3B56A003C5B70 /* LQGroupPickerViewController.h */,
+				5542374820D3B56B003C5B70 /* LQGroupPickerViewController.m */,
+				5542374520D3B56A003C5B70 /* LQGroupPickerViewController.xib */,
+				5542374A20D3B56B003C5B70 /* LQPickerViewController.h */,
+				5542374320D3B56A003C5B70 /* LQPickerViewController.m */,
+				5542374720D3B56B003C5B70 /* LQPickerViewController.xib */,
+				5542374920D3B56B003C5B70 /* LQPickVC.h */,
+				5542374620D3B56A003C5B70 /* LQPickVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		554236F120D35F6C003C5B70 /* pickImage */ = {
+			isa = PBXGroup;
+			children = (
+				554236F220D35F6C003C5B70 /* photo_bg_1@3x.png */,
+				554236F320D35F6C003C5B70 /* photo_bg_1@2x.png */,
+				554236F420D35F6C003C5B70 /* photo_bg@3x.png */,
+				554236F520D35F6C003C5B70 /* photo_bg@2x.png */,
+			);
+			path = pickImage;
+			sourceTree = "<group>";
+		};
+		556730B420CFD7B100E8C33D = {
+			isa = PBXGroup;
+			children = (
+				556730BF20CFD7B100E8C33D /* UploadPhoto */,
+				556730D820CFD7B300E8C33D /* UploadPhotoTests */,
+				556730E320CFD7B300E8C33D /* UploadPhotoUITests */,
+				556730BE20CFD7B100E8C33D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		556730BE20CFD7B100E8C33D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556730BD20CFD7B100E8C33D /* UploadPhoto.app */,
+				556730D520CFD7B300E8C33D /* UploadPhotoTests.xctest */,
+				556730E020CFD7B300E8C33D /* UploadPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		556730BF20CFD7B100E8C33D /* UploadPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				556730C020CFD7B100E8C33D /* AppDelegate.h */,
+				556730C120CFD7B100E8C33D /* AppDelegate.m */,
+				556730C320CFD7B100E8C33D /* ViewController.h */,
+				556730C420CFD7B100E8C33D /* ViewController.m */,
+				554236D720D35F6C003C5B70 /* LQPhotoPick */,
+				556730C620CFD7B100E8C33D /* Main.storyboard */,
+				556730C920CFD7B200E8C33D /* Assets.xcassets */,
+				556730CB20CFD7B200E8C33D /* LaunchScreen.storyboard */,
+				556730CE20CFD7B200E8C33D /* Info.plist */,
+				556730CF20CFD7B300E8C33D /* main.m */,
+			);
+			path = UploadPhoto;
+			sourceTree = "<group>";
+		};
+		556730D820CFD7B300E8C33D /* UploadPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				556730D920CFD7B300E8C33D /* UploadPhotoTests.m */,
+				556730DB20CFD7B300E8C33D /* Info.plist */,
+			);
+			path = UploadPhotoTests;
+			sourceTree = "<group>";
+		};
+		556730E320CFD7B300E8C33D /* UploadPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				556730E420CFD7B300E8C33D /* UploadPhotoUITests.m */,
+				556730E620CFD7B300E8C33D /* Info.plist */,
+			);
+			path = UploadPhotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556730BC20CFD7B100E8C33D /* UploadPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556730E920CFD7B300E8C33D /* Build configuration list for PBXNativeTarget "UploadPhoto" */;
+			buildPhases = (
+				556730B920CFD7B100E8C33D /* Sources */,
+				556730BA20CFD7B100E8C33D /* Frameworks */,
+				556730BB20CFD7B100E8C33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UploadPhoto;
+			productName = UploadPhoto;
+			productReference = 556730BD20CFD7B100E8C33D /* UploadPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		556730D420CFD7B300E8C33D /* UploadPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556730EC20CFD7B300E8C33D /* Build configuration list for PBXNativeTarget "UploadPhotoTests" */;
+			buildPhases = (
+				556730D120CFD7B300E8C33D /* Sources */,
+				556730D220CFD7B300E8C33D /* Frameworks */,
+				556730D320CFD7B300E8C33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556730D720CFD7B300E8C33D /* PBXTargetDependency */,
+			);
+			name = UploadPhotoTests;
+			productName = UploadPhotoTests;
+			productReference = 556730D520CFD7B300E8C33D /* UploadPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		556730DF20CFD7B300E8C33D /* UploadPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556730EF20CFD7B300E8C33D /* Build configuration list for PBXNativeTarget "UploadPhotoUITests" */;
+			buildPhases = (
+				556730DC20CFD7B300E8C33D /* Sources */,
+				556730DD20CFD7B300E8C33D /* Frameworks */,
+				556730DE20CFD7B300E8C33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556730E220CFD7B300E8C33D /* PBXTargetDependency */,
+			);
+			name = UploadPhotoUITests;
+			productName = UploadPhotoUITests;
+			productReference = 556730E020CFD7B300E8C33D /* UploadPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556730B520CFD7B100E8C33D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = jun;
+				TargetAttributes = {
+					556730BC20CFD7B100E8C33D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					556730D420CFD7B300E8C33D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 556730BC20CFD7B100E8C33D;
+					};
+					556730DF20CFD7B300E8C33D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 556730BC20CFD7B100E8C33D;
+					};
+				};
+			};
+			buildConfigurationList = 556730B820CFD7B100E8C33D /* Build configuration list for PBXProject "UploadPhoto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 556730B420CFD7B100E8C33D;
+			productRefGroup = 556730BE20CFD7B100E8C33D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556730BC20CFD7B100E8C33D /* UploadPhoto */,
+				556730D420CFD7B300E8C33D /* UploadPhotoTests */,
+				556730DF20CFD7B300E8C33D /* UploadPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		556730BB20CFD7B100E8C33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5542370320D35F6D003C5B70 /* photo_bg_1@3x.png in Resources */,
+				556730CD20CFD7B200E8C33D /* LaunchScreen.storyboard in Resources */,
+				5542370520D35F6D003C5B70 /* photo_bg@3x.png in Resources */,
+				5542374C20D3B56B003C5B70 /* LQGroupPickerViewController.xib in Resources */,
+				556730CA20CFD7B200E8C33D /* Assets.xcassets in Resources */,
+				5542374E20D3B56B003C5B70 /* LQPickerViewController.xib in Resources */,
+				554236FB20D35F6D003C5B70 /* LQGroupCell.xib in Resources */,
+				554236FD20D35F6D003C5B70 /* LQPhotoCollectionViewCell.xib in Resources */,
+				556730C820CFD7B100E8C33D /* Main.storyboard in Resources */,
+				5542370420D35F6D003C5B70 /* photo_bg_1@2x.png in Resources */,
+				5542370620D35F6D003C5B70 /* photo_bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556730D320CFD7B300E8C33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556730DE20CFD7B300E8C33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556730B920CFD7B100E8C33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554236FC20D35F6D003C5B70 /* LQPhotoCollectionViewCell.m in Sources */,
+				556730C520CFD7B100E8C33D /* ViewController.m in Sources */,
+				5542374D20D3B56B003C5B70 /* LQPickVC.m in Sources */,
+				5542374120D3B54D003C5B70 /* LQPhotoLayout.m in Sources */,
+				5542374020D3B54D003C5B70 /* LQPhotoGroupEntity.m in Sources */,
+				554236FA20D35F6D003C5B70 /* LQGroupCell.m in Sources */,
+				5542374B20D3B56B003C5B70 /* LQPickerViewController.m in Sources */,
+				5542374F20D3B56B003C5B70 /* LQGroupPickerViewController.m in Sources */,
+				556730D020CFD7B300E8C33D /* main.m in Sources */,
+				5542374220D3B54D003C5B70 /* LQCollectionCellEntity.m in Sources */,
+				556730C220CFD7B100E8C33D /* AppDelegate.m in Sources */,
+				5542373F20D3B54D003C5B70 /* LQPhotoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556730D120CFD7B300E8C33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556730DA20CFD7B300E8C33D /* UploadPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556730DC20CFD7B300E8C33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556730E520CFD7B300E8C33D /* UploadPhotoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		556730D720CFD7B300E8C33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556730BC20CFD7B100E8C33D /* UploadPhoto */;
+			targetProxy = 556730D620CFD7B300E8C33D /* PBXContainerItemProxy */;
+		};
+		556730E220CFD7B300E8C33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556730BC20CFD7B100E8C33D /* UploadPhoto */;
+			targetProxy = 556730E120CFD7B300E8C33D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		556730C620CFD7B100E8C33D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556730C720CFD7B100E8C33D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		556730CB20CFD7B200E8C33D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556730CC20CFD7B200E8C33D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		556730E720CFD7B300E8C33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		556730E820CFD7B300E8C33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		556730EA20CFD7B300E8C33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H98S264KT;
+				INFOPLIST_FILE = UploadPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jun.UploadPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		556730EB20CFD7B300E8C33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H98S264KT;
+				INFOPLIST_FILE = UploadPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jun.UploadPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		556730ED20CFD7B300E8C33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UploadPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jun.UploadPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UploadPhoto.app/UploadPhoto";
+			};
+			name = Debug;
+		};
+		556730EE20CFD7B300E8C33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UploadPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jun.UploadPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UploadPhoto.app/UploadPhoto";
+			};
+			name = Release;
+		};
+		556730F020CFD7B300E8C33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UploadPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jun.UploadPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UploadPhoto;
+			};
+			name = Debug;
+		};
+		556730F120CFD7B300E8C33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UploadPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jun.UploadPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UploadPhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556730B820CFD7B100E8C33D /* Build configuration list for PBXProject "UploadPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556730E720CFD7B300E8C33D /* Debug */,
+				556730E820CFD7B300E8C33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556730E920CFD7B300E8C33D /* Build configuration list for PBXNativeTarget "UploadPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556730EA20CFD7B300E8C33D /* Debug */,
+				556730EB20CFD7B300E8C33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556730EC20CFD7B300E8C33D /* Build configuration list for PBXNativeTarget "UploadPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556730ED20CFD7B300E8C33D /* Debug */,
+				556730EE20CFD7B300E8C33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556730EF20CFD7B300E8C33D /* Build configuration list for PBXNativeTarget "UploadPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556730F020CFD7B300E8C33D /* Debug */,
+				556730F120CFD7B300E8C33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 556730B520CFD7B100E8C33D /* Project object */;
+}
